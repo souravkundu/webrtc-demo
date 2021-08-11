@@ -1,0 +1,23 @@
+{
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "scripts/jquery-3.4.1.min.js",
+                "scripts/jquery.signalR-2.2.2.min.js",
+                "audio/demo.js",
+                "rtcdemo/demo.js",
+                "rtcdemo/video-stream-merger.js",
+                "screenshare1/demo.js"
+            ]
+        }
+    ],
+    "browser_action": [
+        {
+            "default_tilte": "Record video",
+            "default_popup": "index.html"
+        }
+    ]
+}

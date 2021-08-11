@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Media share app",
+    "description": "audio/video record and screen share app",
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "storage"
+    ],
+    "version": "1.0",
+    "options_page": "index.html",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "index.html"
+    }
+}
